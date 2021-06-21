@@ -52,7 +52,7 @@ body {
     border-radius: 20px;
     padding: 5px 25px;
     font-weight: 600;
-    color: #fff !important;
+    color: black !important;
 }
 
 .icon-redes-sociais {
@@ -92,52 +92,58 @@ body {
     padding: 15px 0px 15px 0px; 
 }
 
-@media (min-widht: 900px){
-    
-    .container-linear {
-        background: linear-gradient(to left, #fff 60%, #19def0 40%);
+@media (min-width: 900px){
+
+    .container-linear{
+        background: linear-gradient(to left, #ffffff 60%, #19def0  40%);
     }
 
-    .card-col {
+
+    .card-col{
         display: flex;
         justify-content: flex-end;
         align-content: center;
-        background-color: #fff !important;
-        box-shadow: -10px 5px 10px 0px #292a2d;
+        background-color: #ffffff !important;
+        box-shadow: -10px 5px 10px 0px;
     }
 
-    .card-perfil {
-        background-color: #fff !important;
-        color: #292a2d;
+    .card-perfil{
+        background-color: #ffffff !important;
+        color: black;
         box-shadow: none !important;
-        width: 18em;
+        width:18em;
         border: none !important;
+       
     }
 
-    .btn-card {
-        color: black !important;
+    .btn-card{
+        color:black !important;
     }
 
-    .text-body {
+    .text-body{
         box-shadow: none;
     }
 
-    .text {
+    .text{
         max-width: 430px;
         vertical-align: middle;
         margin-top: 2em;
     }
 
     #footer-elementos {
-        display: flex !important;
+        display:flex !important; 
         justify-content: center !important;
     }
-}
+    .rodape{
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
 
-#texto-1{
-
 }
+ #texto-1 {
 
-#texto-2{
-    display: none;
-}
+ }
+
+ #texto-2 {
+     display: none;
+ }
